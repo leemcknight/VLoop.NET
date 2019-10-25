@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPlacer", "ControlPlacer.csproj", "{FA422419-D8E8-4681-9A67-306C5585D2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPlacerTestHarness", "..\ControlPlacerTestHarness\ControlPlacerTestHarness.csproj", "{A53D7F38-18EE-4A3E-AB81-50BA4647FA15}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FA422419-D8E8-4681-9A67-306C5585D2AE}.Debug.ActiveCfg = Debug|.NET
+		{FA422419-D8E8-4681-9A67-306C5585D2AE}.Debug.Build.0 = Debug|.NET
+		{FA422419-D8E8-4681-9A67-306C5585D2AE}.Release.ActiveCfg = Release|.NET
+		{FA422419-D8E8-4681-9A67-306C5585D2AE}.Release.Build.0 = Release|.NET
+		{A53D7F38-18EE-4A3E-AB81-50BA4647FA15}.Debug.ActiveCfg = Debug|.NET
+		{A53D7F38-18EE-4A3E-AB81-50BA4647FA15}.Debug.Build.0 = Debug|.NET
+		{A53D7F38-18EE-4A3E-AB81-50BA4647FA15}.Release.ActiveCfg = Release|.NET
+		{A53D7F38-18EE-4A3E-AB81-50BA4647FA15}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		Item:1 = ControlPlacer.vsd
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

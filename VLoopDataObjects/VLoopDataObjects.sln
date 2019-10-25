@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLoopDataObjects", "VLoopDataObjects.csproj", "{364EF767-CBD2-4199-BF6F-8F7263702BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLoopServer", "..\VLoopServer\VLoopServer.csproj", "{1F8A5A4A-82E6-4B37-9B4D-F41D89AB67B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VLoopBusinessObjects", "..\VLoopBusinessTier\VLoopBusinessObjects.csproj", "{359C2609-2D67-4DD9-8DE8-FDB39A549417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AfUtil", "..\AfUtil\AfUtil.csproj", "{E914AFEC-6A74-4343-BC54-60F091C5947B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataUtility", "..\..\..\..\..\vsswork\DotNetTest\DataUtility\DataUtility.csproj", "{E4339883-0430-473F-8137-52E249E6C8F5}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = ..\\..\\..\\..\\..\\vsswork\\DotNetTest\\DataUtility\\DataUtility.csproj
+		SccProjectName0 = \u0022$/Dot\u0020NET\u0020Stateless\u0020Suppliers-Products\u0020Template\u0022,\u0020CJZAAAAA
+		SccLocalPath0 = ..\\..\\..\\..\\..\\vsswork\\DotNetTest
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = DataUtility\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{364EF767-CBD2-4199-BF6F-8F7263702BF4}.Debug.ActiveCfg = Debug|.NET
+		{364EF767-CBD2-4199-BF6F-8F7263702BF4}.Debug.Build.0 = Debug|.NET
+		{364EF767-CBD2-4199-BF6F-8F7263702BF4}.Release.ActiveCfg = Release|.NET
+		{364EF767-CBD2-4199-BF6F-8F7263702BF4}.Release.Build.0 = Release|.NET
+		{1F8A5A4A-82E6-4B37-9B4D-F41D89AB67B8}.Debug.ActiveCfg = Debug|.NET
+		{1F8A5A4A-82E6-4B37-9B4D-F41D89AB67B8}.Debug.Build.0 = Debug|.NET
+		{1F8A5A4A-82E6-4B37-9B4D-F41D89AB67B8}.Release.ActiveCfg = Release|.NET
+		{1F8A5A4A-82E6-4B37-9B4D-F41D89AB67B8}.Release.Build.0 = Release|.NET
+		{359C2609-2D67-4DD9-8DE8-FDB39A549417}.Debug.ActiveCfg = Debug|.NET
+		{359C2609-2D67-4DD9-8DE8-FDB39A549417}.Debug.Build.0 = Debug|.NET
+		{359C2609-2D67-4DD9-8DE8-FDB39A549417}.Release.ActiveCfg = Release|.NET
+		{359C2609-2D67-4DD9-8DE8-FDB39A549417}.Release.Build.0 = Release|.NET
+		{E914AFEC-6A74-4343-BC54-60F091C5947B}.Debug.ActiveCfg = Debug|.NET
+		{E914AFEC-6A74-4343-BC54-60F091C5947B}.Debug.Build.0 = Debug|.NET
+		{E914AFEC-6A74-4343-BC54-60F091C5947B}.Release.ActiveCfg = Release|.NET
+		{E914AFEC-6A74-4343-BC54-60F091C5947B}.Release.Build.0 = Release|.NET
+		{E4339883-0430-473F-8137-52E249E6C8F5}.Debug.ActiveCfg = Debug|.NET
+		{E4339883-0430-473F-8137-52E249E6C8F5}.Debug.Build.0 = Debug|.NET
+		{E4339883-0430-473F-8137-52E249E6C8F5}.Release.ActiveCfg = Release|.NET
+		{E4339883-0430-473F-8137-52E249E6C8F5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

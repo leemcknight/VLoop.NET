@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.0.9466</ProductVersion>
+    <SchemaVersion>1.0</SchemaVersion>
+    <ProjectGuid>{C38A10FD-F735-4F4E-BCB7-5736CED2AA61}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>VLoop</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Afni.Applications.VLoop</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="StdType">
+      <Guid>{BEF6E001-A874-101A-8BBA-00AA00300CAB}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <ProjectReference Include="..\AfUtil\AfUtil.csproj">
+      <Name>AfUtil</Name>
+      <Project>{E914AFEC-6A74-4343-BC54-60F091C5947B}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ControlPlacer\ControlPlacer.csproj">
+      <Name>ControlPlacer</Name>
+      <Project>{FA422419-D8E8-4681-9A67-306C5585D2AE}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\DataUtility\DataUtility.csproj">
+      <Name>DataUtility</Name>
+      <Project>{E4339883-0430-473F-8137-52E249E6C8F5}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\FormData\FormData.csproj">
+      <Name>FormData</Name>
+      <Project>{BFC45A9F-91DE-4667-B000-687C1E575C3A}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\VLoopBusinessTier\VLoopBusinessObjects.csproj">
+      <Name>VLoopBusinessObjects</Name>
+      <Project>{359C2609-2D67-4DD9-8DE8-FDB39A549417}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\VLoopDataObjects\VLoopDataObjects.csproj">
+      <Name>VLoopDataObjects</Name>
+      <Project>{364EF767-CBD2-4199-BF6F-8F7263702BF4}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\VLoopSmartDTO\VLoopSmartDTO.csproj">
+      <Name>VLoopSmartDTO</Name>
+      <Project>{47B6A524-81C8-4970-A56E-A96E4D607FFC}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="AfCtlLib">
+      <Name>afctllib</Name>
+      <HintPath>..\afctllib\bin\debug\afctllib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Application.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CallHistoryCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CallStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CampaignCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CCDetailsCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Commands\Commands.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ctlHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlOrders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlOrderValidation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlWorkMode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DispositionCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JobAidsCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewPlanManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewPlanWiz1Ctl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewPlanWizFinal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewPlanWizPlanTypeCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ctlTheme.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\frmOpt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueueCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QueueManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScriptCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="States\States.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TollFreeDetailsCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewExplorer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\View.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="View\ViewCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VLoopIcons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WTNCtl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Content Include="App.ico" />
+    <Content Include="Themes\Def.xml" />
+    <EmbeddedResource Include="AccountCtl.resx">
+      <DependentUpon>AccountCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallHistoryCtl.resx">
+      <DependentUpon>CallHistoryCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CampaignCtl.resx">
+      <DependentUpon>CampaignCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCDetailsCtl.resx">
+      <DependentUpon>CCDetailsCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlHome.resx">
+      <DependentUpon>ctlHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlOrders.resx">
+      <DependentUpon>ctlOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlOrderValidation.resx">
+      <DependentUpon>ctlOrderValidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlWorkMode.resx">
+      <DependentUpon>ctlWorkMode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerCtl.resx">
+      <DependentUpon>CustomerCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DispositionCtl.resx">
+      <DependentUpon>DispositionCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobAidsCtl.resx">
+      <DependentUpon>JobAidsCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPlanWiz1Ctl.resx">
+      <DependentUpon>NewPlanWiz1Ctl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPlanWizFinal.resx">
+      <DependentUpon>NewPlanWizFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPlanWizPlanTypeCtl.resx">
+      <DependentUpon>NewPlanWizPlanTypeCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ctlTheme.resx">
+      <DependentUpon>ctlTheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\frmOpt.resx">
+      <DependentUpon>frmOpt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueueCtl.resx">
+      <DependentUpon>QueueCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\acct.ico" />
+    <EmbeddedResource Include="Resources\back_g.ico" />
+    <EmbeddedResource Include="Resources\chevron_down.ico" />
+    <EmbeddedResource Include="Resources\chevron_down_2000.ico" />
+    <EmbeddedResource Include="Resources\chevron_down_hover.ico" />
+    <EmbeddedResource Include="Resources\chevron_down_hover_2000.ico" />
+    <EmbeddedResource Include="Resources\chevron_up.ico" />
+    <EmbeddedResource Include="Resources\chevron_up_2000.ico" />
+    <EmbeddedResource Include="Resources\chevron_up_hover.ico" />
+    <EmbeddedResource Include="Resources\chevron_up_hover_2000.ico" />
+    <EmbeddedResource Include="Resources\del.ico" />
+    <EmbeddedResource Include="Resources\edit.ico" />
+    <EmbeddedResource Include="Resources\endcall.ico" />
+    <EmbeddedResource Include="Resources\folder_closed.ico" />
+    <EmbeddedResource Include="Resources\folder_open.ico" />
+    <EmbeddedResource Include="Resources\help.ico" />
+    <EmbeddedResource Include="Resources\home_h.ico" />
+    <EmbeddedResource Include="Resources\main.ico" />
+    <EmbeddedResource Include="Resources\new.ico" />
+    <EmbeddedResource Include="Resources\next.ico" />
+    <EmbeddedResource Include="Resources\people.ico" />
+    <EmbeddedResource Include="Resources\save_g.ico" />
+    <EmbeddedResource Include="Resources\search48.ico" />
+    <EmbeddedResource Include="Resources\time.ico" />
+    <EmbeddedResource Include="Resources\undo_h.ico" />
+    <EmbeddedResource Include="Resources\world.ico" />
+    <EmbeddedResource Include="ScriptCtl.resx">
+      <DependentUpon>ScriptCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchCtl.resx">
+      <DependentUpon>SearchCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TollFreeDetailsCtl.resx">
+      <DependentUpon>TollFreeDetailsCtl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WTNCtl.resx">
+      <DependentUpon>WTNCtl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

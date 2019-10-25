@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<themes>
+	<vl_theme name="Windows XP - Blue" id="xpblue">
+		<navbar_gradient>
+			<top red="140" green="170" blue="230" />
+			<bottom red="99" green="117" blue="214" />
+		</navbar_gradient>
+		<navbar_header_gradient>
+			<left red="0" green="0" blue="0" />
+			<right red="197" green="210" blue="240" />
+		</navbar_header_gradient>
+		<titlebar_gradient>
+			<left red="40" green="91" blue="197" />
+			<right red="99" green="117" blue="214" />
+		</titlebar_gradient>
+		<controls>
+			<flat>TRUE</flat>
+		</controls>
+	</vl_theme>
+	<vl_theme name="Windows 2000" id="win2k">
+		<navbar_gradient>
+			<color1 red="128" green="128" blue="128" />
+			<color2 red="" green="" blue="" />
+		</navbar_gradient>
+		<titlebar_gradient>
+			<color1 red="" green="" blue="" />
+			<color2 red="" green="" blue="" />
+		</titlebar_gradient>
+		<controls>
+			<flat>FALSE</flat>
+		</controls>
+	</vl_theme>
+</themes>
